@@ -129,23 +129,35 @@
     <Compile Include="Controllers\BigEPopsicleController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KurdishController.cs" />
+    <Compile Include="Controllers\MariachiController.cs" />
+    <Compile Include="Controllers\McKinleeReadsController.cs" />
     <Compile Include="Controllers\RosesSecretController.cs" />
+    <Compile Include="Controllers\WomenSingingController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Audio\BigEMix.mp3" />
+    <Content Include="Content\Audio\KurdishJourney.mp3" />
+    <Content Include="Content\Audio\MariachiMix.mp3" />
+    <Content Include="Content\Audio\McKinleeReadsMix.mp3" />
     <Content Include="Content\Audio\Recording.mp3" />
     <Content Include="Content\Audio\Recording_01.mp3" />
     <Content Include="Content\Audio\Recording_02.mp3" />
+    <Content Include="Content\Audio\RoseMix.mp3" />
+    <Content Include="Content\Audio\WomenSingMix.mp3" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Photos\BigEPopsicle.jpg" />
     <Content Include="Content\Photos\Kurdish.jpg" />
+    <Content Include="Content\Photos\Mariachi.jpg" />
+    <Content Include="Content\Photos\McKinleeReads.jpg" />
     <Content Include="Content\Photos\RosesSecrets.jpg" />
+    <Content Include="Content\Photos\WomenSing.jpg" />
     <Content Include="Content\Recording_01.mp3" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -182,6 +194,9 @@
     <Content Include="Views\Kurdish\Photo.cshtml" />
     <Content Include="Views\BigEPopsicle\Photo.cshtml" />
     <Content Include="Views\RosesSecret\Photo.cshtml" />
+    <Content Include="Views\McKinleeReads\Photo.cshtml" />
+    <Content Include="Views\Mariachi\Photo.cshtml" />
+    <Content Include="Views\WomenSinging\Photo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
