@@ -1,8 +1,4 @@
-﻿/*body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}*/
-
+﻿
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -26,13 +22,18 @@ textarea {
 .fullPage {
     height: 100vh;
     width:108vw;
-    
+    margin-top: 20px;
 }
 
-/*.kurdishPage {
-    background-image:url("Photos/Kurdish.jpg");
-}*/
+.marginBottom20 {
+    margin-bottom: 20px;
+}
 
+.audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
 
 .container {
     padding-right:0px;
